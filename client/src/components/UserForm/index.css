@@ -1,0 +1,50 @@
+.create-user-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.create-user-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.create-user-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-user-container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.create-user-container input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.create-user-container button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create-user-container button:hover {
+    background-color: #218838;
+}
+
+.create-user-container h2 {
+    margin-top: 30px;
+    text-align: center;
+    color: #555;
+}
